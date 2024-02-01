@@ -1,0 +1,63 @@
+body{
+    background: black;
+    color: red;
+    margin-right: 100pt;
+    margin-left: 100pt;
+}
+
+h1{
+    margin-left: 100pt;
+    margin-right: 100pt;
+    text-align: center;
+}
+
+h2{
+    position: relative; right: 50pt;
+}
+
+p{
+    text-align: justify;
+    background: rgba(50,50,50,0.8);
+    padding: 10pt;
+}
+
+img.SCARY {
+    transition: transform .1s;
+    float: right;
+    margin-left: 10pt;
+    border: 1pt solid yellow;
+}
+
+img.SCARY:hover {
+    transform: matrix3d(  -0.6,       1.34788, 0,        0,
+    -2.34788,  -0.6,     0,        0,
+     0,         0,       1,        0,
+     0,         0,      10,        1);
+}
+
+img.SCARY {
+    height: 50pt;
+    width: 120pt;
+}
+
+.Yessir{
+    background: salmon;
+}
+
+.Nosir{
+    background: darkgreen;
+}
+
+table{
+    width: 900pt;
+    border: 1pt solid yellow;
+    border-radius: 10pt;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td{
+    border: 1pt solid yellow;
+    background: navy;
+}

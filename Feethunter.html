@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Feethunter.css">
+    <title>I just love FEEEET</title>
+</head>
+<body>
+    <div class="flex">
+    <h1 class="Feet">Feet</h1><h1 class="Hub">Hub</h1>
+    </div>
+    <div id="consentBox">
+        <div class="cookie-consent-container" id="consentContent">
+          <div class="cookie-consent-notice">
+            <h4>Your Cookie Preferences</h4>
+            <hr>
+            <p>You consent to <b>8980237518978957 cookies</b>. You can manage your settings below or find out by reading our <a href="https://www.y8.com/games/amateur_surgeon">Cookie Policy</a>.</p>
+          </div>
+          <div class="cookie-consent-selection">
+            <button class="rejectBtn" id="rejected">Reject</button>
+            <button class="acceptBtn">Allow All Cookies</button>
+          </div>
+        </div>
+      </div>
+
+<img src="images (1).jpeg" alt="">
+<img src="images (10).jpeg" alt="">
+<img src="images (11).jpeg" alt="">
+<img src="images (12).jpeg" alt="">
+<img src="images (13).jpeg" alt="">
+<img src="images (14).jpeg" alt="">
+<img src="images (2).jpeg" alt="">
+<img src="images (3).jpeg" alt="">
+<img src="images (4).jpeg" alt="">
+<img src="images (5).jpeg" alt="">
+<img src="images (6).jpeg" alt="">
+<img src="images (7).jpeg" alt="">
+<img src="images (8).jpeg" alt="">
+<img src="images (9).jpeg" alt="">
+
+    
+</body>
+
+<script>
+    const consentBox =  
+    document.getElementById("consentBox"); 
+const acceptBtn =  
+    document.querySelector(".acceptBtn"); 
+const rejectBtn =  
+    document.querySelector(".rejectBtn"); 
+  
+acceptBtn.onclick = () => { 
+    document.cookie = "Soul seller to the devil"
+   
+    if (document.cookie) { 
+        consentBox.classList.add("hide"); 
+    } else { 
+        consentBox.classList.add("hide"); 
+    } 
+}; 
+
+rejectBtn.onclick = () => { 
+    rejectBtn.classList.remove("rejectBtn");
+    rejectBtn.classList.add("acceptBtn");
+    rejectBtn.classList.add("Converted");
+    rejectBtn.innerHTML = "ALLOW ALL COOKIES"
+    rejectBtn.onclick = () => { 
+        consentBox.classList.add("hide")
+    }
+}; 
+
+  
+let checkCookie =  
+    document.cookie.indexOf("Soul seller to the devil"); 
+checkCookie !== -1 ? consentBox.classList.add("hide") : 
+    consentBox.classList.remove("hide");
+    </script>
+</body>
+</html>

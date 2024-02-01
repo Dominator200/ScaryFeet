@@ -1,0 +1,163 @@
+body {
+    background-color: beige;
+    color: darkgreen;
+    text-align: justify;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    background-color: rgba(244, 195, 126, 0.431);
+    margin: 15pt;
+    padding-left: 15pt;
+}
+
+li {
+    list-style: decimal;
+    padding-left: 30pt;
+}
+
+h2 {
+    padding: 0;
+}
+
+.div-img{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    padding-top:20%;
+}
+
+img.delight{
+    transition: transform .2s;
+    width:500px;
+    height:250px;
+    float: right;
+    margin: 0px auto;
+    background-color: rgb(173, 173, 237);
+    border: 2pt double green;
+    border-radius: 10pt;
+}
+
+img.feet{
+    transition: transform .2s;
+}
+
+img.feet:hover {
+    transform: scale(1.1);
+}
+
+img.addd {
+    float: right;
+}
+
+img:hover {
+    transform:scale(1.5);
+}
+
+td.Daddy {
+    color: aliceblue;
+}
+
+td.Lábakra {
+    color: blue;
+}
+
+table {
+    width: 900pt;
+    border: 1pt solid darkgreen ;
+    border-radius: 10pt;
+    align-content: center;
+    text-align: center;
+}
+
+td{
+    border: 1pt solid black ;
+    background-color: bisque;
+} 
+
+td.Daddy {
+    background-color: brown;
+}
+
+td.Lábakra {
+    background-color: darkgreen;
+}
+  
+#consentBox { 
+    background: #fff; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+} 
+  
+#consentBox.hide { 
+    opacity: 0; 
+    pointer-events: none; 
+    transform: scale(0.8); 
+    transition: all 0.3s ease; 
+} 
+  
+::selection { 
+    color: #fff; 
+    background: #229a0f; 
+} 
+  
+#consentContent p { 
+    color: #858585; 
+    margin: 10px 0 20px 0; 
+} 
+  
+#consentContent .buttons { 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+} 
+  
+.consentButton, 
+.rejectButton { 
+    padding: 12px 30px; 
+    border: none; 
+    outline: none; 
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: 500; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+} 
+  
+.consentButton { 
+    background: #2a910b; 
+    margin-right: 10px; 
+} 
+  
+.rejectButton { 
+    color: #111211; 
+    background: transparent; 
+    border: 2px solid #099c2c; 
+    text-decoration: none; 
+} 
+  
+#consentBox img { 
+    max-width: 90px; 
+} 
+  
+#consentHeader { 
+    font-size: 25px; 
+    font-weight: 600; 
+    margin-top: 10px; 
+}
+
+img.download {
+    transition: transform .2s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20pt;
+}

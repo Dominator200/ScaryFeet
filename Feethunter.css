@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+}
+
+h1.Feet {
+    font-size: 40pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    text-align: justify;
+    margin-right: 4pt;
+}
+
+h1.Hub {
+    font-size: 40pt;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    background: orange fixed;
+    border: orange;
+    border-radius: 10pt;
+}
+
+.flex {
+    display: flex;
+}
+
+img {
+    transition: transform .2s;
+    border: 2pt solid orange;
+    border-radius: 4pt;
+}
+
+img:hover {
+    transform: scale(2);
+}
+
+body {
+    font-family: sans-serif;
+  }
+  #consentBox {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    resize: vertical;
+    overflow: auto;
+    z-index: 999999999;
+    background: rgba(0, 0, 0, 0.7);
+  }
+  #consentBox .cookie-consent-container {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    margin: -100px auto 0;
+    background: #fff;
+    padding: 20px;
+    max-width: 500px;
+  }
+  #consentBox .cookie-consent-selection {
+    text-align: right;
+  }
+  #consentBox button {
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0 0 10px;
+    background: none;
+    font-size: 1.1em;
+  }
+  #consentBox button.acceptBtn {
+    background-color: #04aa6d;
+    color: #fff;
+  }
+  #consentBox button.acceptBtn:focus,
+  #consentBox button.acceptBtn:hover {
+    background-color: #059862;
+    cursor: pointer;
+  }
+  #consentBox.hide { 
+    opacity: 0;
+    pointer-events: none; 
+    transform: scale(0.8); 
+    transition: all 0.3s ease; 
+    background-color: black;
+    } 
+
+    ::selection { 
+    color: #fff; 
+    background: #229a0f; 
+    } 
+  
+    .acceptBtn, 
+    .rejectBtn { 
+    padding: 12px 30px; 
+    border: none; 
+    outline: none; 
+    color: black; 
+    font-size: 16px; 
+    font-weight: 500; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+} 
+
+  #consentBox button.rejectBtn {
+    padding: 5px 0;
+    font-size: 0.9em;
+    opacity: 0.8;
+  }
+  #consentBox button.rejectBtn:focus,
+  button.cookie-consent-deny:hover {
+    opacity: 1;
+    cursor: pointer;
+  }
+  #consentBox hr {
+    margin: 15px 0;
+  }
