@@ -26,6 +26,7 @@ img.SCARY {
     float: right;
     margin-left: 10pt;
     border: 1pt solid yellow;
+    border-radius: 1pt; 
 }
 
 img.SCARY:hover {
