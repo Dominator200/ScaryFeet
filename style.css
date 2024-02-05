@@ -175,13 +175,13 @@ img.download {
 }
 
 .active.fade-bottom {
-  animation: fade-bottom 1s;
+  animation: fade-bottom 1s ease-in;
 }
 .active.fade-left {
-  animation: fade-left 1s;
+  animation: fade-left 1s ease-in;
 }
 .active.fade-right {
-  animation: fade-right 1s;
+  animation: fade-right 1s ease-in;
 }
 
 @keyframes fade-bottom {
